@@ -2,16 +2,10 @@ import styles from "./Hero.module.css";
 
 export default function Hero() {
   return (
-    <div id="container" className={styles.container_100vh}>
+    <div className={styles.container_100vh}>
       <main className={styles.main}>
+        <img src="/floral.png" alt="" className={styles.floralRing} />
         <img
-          id="floral"
-          src="/floral.png"
-          alt=""
-          className={styles.floralRing}
-        />
-        <img
-          id="profileImg"
           src="/profile.webp"
           alt="Picture of Tabitha Bernard"
           className={styles.profileImg}
