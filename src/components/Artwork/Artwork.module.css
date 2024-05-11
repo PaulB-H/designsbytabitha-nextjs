@@ -1,0 +1,72 @@
+.container_100vh {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 750px;
+}
+.container {
+  width: 100px;
+}
+
+.container_artwork {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.row {
+  flex: 1;
+  width: 100%;
+  margin: 2% 0;
+}
+
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
+
+.painting {
+  max-width: 50%;
+}
+.textBox {
+  padding: 5%;
+  font-family: var(--inter-font);
+}
+.instructions {
+  font-family: var(--inter-font);
+  margin-bottom: 3%;
+}
+.paintingName {
+  margin: 3%;
+  font-family: var(--playfair-font);
+}
+
+@media (max-width: 640px) {
+  .painting {
+    max-width: 100%;
+  }
+  .floatLeft {
+    float: none;
+  }
+  .floatRight {
+    float: none;
+  }
+}
