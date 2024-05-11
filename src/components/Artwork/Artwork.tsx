@@ -1,4 +1,4 @@
-import styles, { floatLeft } from "./Artwork.module.css";
+import styles from "./Artwork.module.css";
 import clsx from "clsx";
 import FullScreenImage from "../FullScrenImage/FullScreenImage";
 
