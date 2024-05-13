@@ -37,6 +37,23 @@ export default function Artwork() {
 
           <div className={styles.grid_item}>
             <FullScreenImage
+              src="/artwork/paintings/Winter_Sunrise_Over_Toronto_Harbour_707x1080.webp"
+              alt="Image"
+              classList={clsx(styles.painting)}
+            />
+            <div className={styles.textBox}>
+              <p className={styles.bold}>
+                Winter Sunrise over
+                <br />
+                Toronto Harbour
+              </p>
+              <p>Acrylic</p>
+              <p>24” x 36”</p>
+            </div>
+          </div>
+
+          <div className={styles.grid_item}>
+            <FullScreenImage
               src="/artwork/paintings/Marine_Life_1461x1080.webp"
               alt="Image"
               classList={clsx(styles.painting)}
@@ -58,23 +75,6 @@ export default function Artwork() {
               <p className={styles.bold}>Wildfires</p>
               <p>Acrylic on Canvas</p>
               <p>18” X 24”</p>
-            </div>
-          </div>
-
-          <div className={styles.grid_item}>
-            <FullScreenImage
-              src="/artwork/paintings/Winter_Sunrise_Over_Toronto_Harbour_707x1080.webp"
-              alt="Image"
-              classList={clsx(styles.painting)}
-            />
-            <div className={styles.textBox}>
-              <p className={styles.bold}>
-                Winter Sunrise over
-                <br />
-                Toronto Harbour
-              </p>
-              <p>Acrylic</p>
-              <p>24” x 36”</p>
             </div>
           </div>
 
