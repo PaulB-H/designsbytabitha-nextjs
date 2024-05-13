@@ -1,7 +1,5 @@
 .container_100vh {
   width: 100%;
-  height: 100vh;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,27 +16,34 @@
 .floralRing {
   position: absolute;
   z-index: -1;
-  left: -30%;
-  width: 200%;
+  left: 0%;
+  width: 420px;
+  margin-left: -65%;
 }
 .profileImg {
   width: 200px;
   height: auto;
   margin: auto;
-  border-radius: 50px 20px 5px 5px;
+  /* border-radius: 50px 20px 5px 5px; */
+  border-radius: 50px 40px 45px 100px;
   margin-bottom: 0;
-  /* border: 0.15em solid #a2a2a2; */
+  margin-left: -65%;
+  margin-top: 10%;
 }
-.header {
-  margin-top: 20px;
-  font-family: var(--playfair-font);
+.imageContainer {
+  position: relative;
 }
 .textContainer {
   text-align: left;
   max-width: 400px;
   margin: 0 10px;
+  margin-top: 100px;
   margin-bottom: 10%;
   font-family: var(--inter-font);
+}
+.header {
+  margin-top: 20px;
+  font-family: var(--playfair-font);
 }
 .text {
   margin-top: 10px;

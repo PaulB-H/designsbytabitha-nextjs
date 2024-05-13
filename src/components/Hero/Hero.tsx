@@ -4,12 +4,14 @@ export default function Hero() {
   return (
     <div className={styles.container_100vh}>
       <main className={styles.main}>
-        <img src="/floral.png" alt="" className={styles.floralRing} />
-        <img
-          src="/profile-nobg.png"
-          alt="Picture of Tabitha Bernard"
-          className={styles.profileImg}
-        />
+        <div className={styles.imageContainer}>
+          <img src="/floral.png" alt="" className={styles.floralRing} />
+          <img
+            src="/profile-nobg.png"
+            alt="Picture of Tabitha Bernard"
+            className={styles.profileImg}
+          />
+        </div>
         <div className={styles.textContainer}>
           <h2 className={styles.header}>Hello! I'm Tabitha Bernard</h2>
           <p className={styles.text}>
