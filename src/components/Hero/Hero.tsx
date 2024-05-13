@@ -6,7 +6,7 @@ export default function Hero() {
       <main className={styles.main}>
         <img src="/floral.png" alt="" className={styles.floralRing} />
         <img
-          src="/profile.webp"
+          src="/profile-nobg.png"
           alt="Picture of Tabitha Bernard"
           className={styles.profileImg}
         />

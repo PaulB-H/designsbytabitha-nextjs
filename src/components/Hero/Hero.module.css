@@ -27,7 +27,7 @@
   margin: auto;
   border-radius: 50px 20px 5px 5px;
   margin-bottom: 0;
-  border: 0.15em solid #a2a2a2;
+  /* border: 0.15em solid #a2a2a2; */
 }
 .header {
   margin-top: 20px;
