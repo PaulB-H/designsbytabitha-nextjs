@@ -8,6 +8,9 @@ import type { AppProps } from "next/app";
 
 import { inter, playfair_display } from "@/global/fonts";
 
+import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
@@ -18,7 +21,9 @@ export default function App({ Component, pageProps }: AppProps) {
         }
       `}</style>
 
+      <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }

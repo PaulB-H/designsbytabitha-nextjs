@@ -6,4 +6,11 @@
 
 body {
   overflow-x: hidden;
+  position: relative;
+
+  /* Bottom Padding should be height of
+     absolute positioned footer      */
+  padding-bottom: 5em;
+
+  padding-top: 2em;
 }
