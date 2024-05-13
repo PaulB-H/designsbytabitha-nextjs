@@ -3,9 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  height: 100%;
+}
 body {
   overflow-x: hidden;
+  min-height: 100%;
   position: relative;
 
   /* Bottom Padding should be height of
