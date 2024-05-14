@@ -5,4 +5,17 @@
   height: 5em;
   background-color: #cacaca;
   bottom: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.footer a {
+  font-family: var(--inter-font);
+  margin-left: 2em;
+  display: flex;
+  align-items: center;
+}
+.footer svg {
+  height: 20px;
+  padding-right: 0.2em;
 }

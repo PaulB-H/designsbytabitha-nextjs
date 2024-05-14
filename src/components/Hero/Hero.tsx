@@ -21,10 +21,6 @@ export default function Hero() {
             I enjoy bringing beauty and imagination to life, one project at a
             time, and this is my portfolio
           </p>
-          <br />
-          <a href="mailto:tabitha@designsbytabitha.ca">
-            tabitha@designsbytabitha.ca
-          </a>
         </div>
       </main>
     </div>
