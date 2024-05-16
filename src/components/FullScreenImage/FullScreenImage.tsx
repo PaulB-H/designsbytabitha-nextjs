@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./FullScreenImage.module.css";
+import clsx from "clsx";
 
 interface FullScreenImage_props {
   src: string;
@@ -15,7 +16,7 @@ const FullScreenImage = ({ src, alt, classList }: FullScreenImage_props) => {
   };
 
   return (
-    <div>
+    <>
       {!isFullScreen ? (
         <img
           className={classList}
@@ -24,11 +25,19 @@ const FullScreenImage = ({ src, alt, classList }: FullScreenImage_props) => {
           onClick={toggleFullScreen}
         />
       ) : (
-        <div className={styles.fullscreen_image} onClick={toggleFullScreen}>
+        <>
           <img className={classList} src={src} alt={alt} />
-        </div>
+          <div className={styles.fullscreen_image} onClick={toggleFullScreen}>
+            <img
+              className={clsx(classList)}
+              src={src}
+              alt={alt}
+              onClick={toggleFullScreen}
+            />
+          </div>
+        </>
       )}
-    </div>
+    </>
   );
 };
 

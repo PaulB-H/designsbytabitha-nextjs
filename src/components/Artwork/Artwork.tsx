@@ -1,6 +1,6 @@
 import styles from "./Artwork.module.css";
 import clsx from "clsx";
-import FullScreenImage from "../FullScrenImage/FullScreenImage";
+import FullScreenImage from "../FullScreenImage/FullScreenImage";
 
 export default function Artwork() {
   return (
