@@ -1,0 +1,18 @@
+.cakeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 50%;
+  margin: auto;
+  padding: 2%;
+}
+.cakesHeading {
+  margin: 3%;
+  font-family: var(--playfair-font);
+}
+@media (max-width: 640px) {
+  .cakeContainer {
+    max-width: 100%;
+  }
+}
