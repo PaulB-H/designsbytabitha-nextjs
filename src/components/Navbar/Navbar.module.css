@@ -11,6 +11,9 @@
   width: 120px;
   position: absolute;
   top: -50%;
+  background: #fff;
+  border-radius: 100%;
+  padding: 10px;
 }
 .menuLine {
   height: 25px;
@@ -22,6 +25,8 @@
   list-style-type: none;
   display: flex;
   margin-left: auto;
+
+  margin-right: calc(-1 * (100vw - 100%) + 4em);
 }
 .navBar ul li {
   margin: 0 5px;

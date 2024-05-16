@@ -28,9 +28,9 @@ export default function Navbar() {
       <ul>
         <NavLink href="/" text="Home" />
         <NavLink href="/artwork" text="Artwork" />
-        <NavLink href="/renos" text="Renos" />
+        {/* <NavLink href="/renos" text="Renos" />*/}
         <NavLink href="/cakes" text="Cakes" />
-        <NavLink href="/about" text="About" />
+        {/*<NavLink href="/about" text="About" /> */}
       </ul>
     </nav>
   );
