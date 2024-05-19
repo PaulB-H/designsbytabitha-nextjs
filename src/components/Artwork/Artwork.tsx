@@ -80,12 +80,12 @@ export default function Artwork() {
 
           <div className={styles.grid_item}>
             <FullScreenImage
-              src="/artwork/paintings/Weather_1430x1080.webp"
+              src="/artwork/paintings/Rough_Seas_1430x1080.webp"
               alt="Image"
               classList={clsx(styles.painting)}
             />
             <div className={styles.textBox}>
-              <p className={styles.bold}>Weather</p>
+              <p className={styles.bold}>Rough Seas</p>
               <p>Acrylic on Canvas</p>
               <p>18” X 24”</p>
             </div>
