@@ -3,11 +3,13 @@ import CakeImg from "./CakeImg/CakeImg";
 
 export default function Cakes({ cakeImages }: { cakeImages: string[] }) {
   return (
-    <main className={styles.cakeContainer}>
-      <h1 className={styles.cakesHeading}>Cakes</h1>
-      {cakeImages.map((url, index) => (
-        <CakeImg key={index} src={url} />
-      ))}
-    </main>
+    <>
+      <h1 className={styles.cakesHeading}>Baking</h1>
+      <main className={styles.cakeContainer}>
+        {cakeImages.map((url, index) => (
+          <CakeImg key={index} src={url} />
+        ))}
+      </main>
+    </>
   );
 }

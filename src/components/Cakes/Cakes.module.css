@@ -1,18 +1,15 @@
 .cakeContainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  flex-direction: column;
-  max-width: 50%;
+  flex-wrap: wrap;
+  flex-direction: row;
   margin: auto;
   padding: 2%;
+  width: 100%;
 }
 .cakesHeading {
   margin: 3%;
   font-family: var(--playfair-font);
-}
-@media (max-width: 640px) {
-  .cakeContainer {
-    max-width: 100%;
-  }
+  text-align: center;
 }
