@@ -2,6 +2,8 @@ import { useState } from "react";
 import styles from "./FullScreenImage.module.css";
 import clsx from "clsx";
 
+import { motion } from "framer-motion";
+
 interface FullScreenImage_props {
   src: string;
   alt: string;
@@ -18,7 +20,10 @@ const FullScreenImage = ({ src, alt, classList }: FullScreenImage_props) => {
   return (
     <>
       {!isFullScreen ? (
-        <img
+        <motion.img
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
           className={classList}
           src={src}
           alt={alt}
