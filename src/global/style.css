@@ -16,4 +16,7 @@ body {
   padding-bottom: 5em;
 
   padding-top: 2em;
+
+  background-image: url("/so-white.png");
+  background-repeat: repeat;
 }
